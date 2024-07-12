@@ -1,0 +1,15 @@
+<!DOCTYPE html> 
+<html lang="en">
+<head>
+<title>Hello world!</title>
+<link rel="stylesheet" href="stylesheet.css" />
+<link rel="icon" type="image/x-icon" href="hogwarts.png" />
+</head> 
+<body>
+
+<img src="../2024Learning/taylorswift.webp" />
+<img src="../2024Learning/erastour.webp" />
+
+
+</body>
+</html>
