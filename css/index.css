@@ -1,0 +1,24 @@
+body {
+  font-family: sans-serif;
+}
+
+* {
+  display: block;
+}
+
+h1 {
+  color: powderblue;
+}
+h1 a {
+  color: hotpink;
+}
+
+h2 {
+  color: #9E48B5;
+  margin-bottom: 0.75rem;
+}
+
+div {
+  color: #F186AA;
+  margin-bottom: 2.25rem;
+}
