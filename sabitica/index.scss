@@ -1,8 +1,10 @@
 // variables + functions 
 @import 'variables';
+@import 'functions';
 
 // base + layout
 @import 'base';
+@import 'breakpoints';
 
 // colors
 @import 'colors';
@@ -13,3 +15,4 @@
 
 
 // utilities (margin, padding, opacity) 
+@import 'utilities';
