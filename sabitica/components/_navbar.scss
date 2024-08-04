@@ -1,0 +1,27 @@
+%flex-layout { // add % when you need to extend something but you don't want a css class generated
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-sizing: border-box;
+};
+
+.navbar {
+    @extend %flex-layout;
+    padding: $base-padding $base-padding * 2;
+    box-shadow: $base-box-shadow; 
+
+    .site-title {
+        font-size: $font-size-lg;
+    }
+    .container {
+        @extend %flex-layout;
+    }
+}
+
+@each $key, $val in $colours {
+    .navbar-#{$key} {
+        @extend .navbar; // omg I didn't know you could do this
+        background-color: $val;
+    }
+}
