@@ -1,7 +1,7 @@
 // variables 
 
 // colors
-$primary: #9E48B5;
+$primary: #9E48B5 !default; // default is this UNLESS there is already one declared
 $secondary: #F186AA;
 $error: #DF6A47;
 $info: #7BB8EF;
